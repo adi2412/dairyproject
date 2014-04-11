@@ -1,7 +1,9 @@
 node_modules
+data
 public
 .tmp
 .sass-cache
+.DS_Store
 app/bower_components
 heroku
 /views

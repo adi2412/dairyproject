@@ -25,6 +25,10 @@ angular.module('dairyprojectApp', [
         controller: 'SettingsCtrl',
         authenticate: true
       })
+      .when('/search', {
+        templateUrl: 'partials/search',
+        controller: 'SearchCtrl',
+      })
       .otherwise({
         redirectTo: '/'
       });

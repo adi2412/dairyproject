@@ -8,6 +8,12 @@ angular.module('dairyprojectApp')
     }, {
       'title': 'Settings',
       'link': '/settings'
+    }, {
+      'title': 'Search',
+      'link': '/search'
+    }, {
+      'title': 'Contact',
+      'link': '/contact'
     }];
     
     $scope.logout = function() {
