@@ -12,6 +12,12 @@ Run the app using-
 
 grunt server
 
+Restore the database dump using-
+
+mongorestore dump/fullstack-dev
+
+PS: Make sure you're connected to mongod first.
+
 TO DO
 -----
 
