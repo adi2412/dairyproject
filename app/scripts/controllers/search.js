@@ -5,25 +5,25 @@ angular.module('dairyprojectApp')
 		$scope.data = {};
 		$scope.sheets = [{
 			'title': 'Milk Producers',
-			'href': 'http://localhost:9000/milkman'
+			'href': '/milkman'
 		},{
 			'title': 'Villages',
-			'href': 'http://localhost:9000/villages'
+			'href': '/villages'
 		},{
 			'title': 'Banks',
-			'href': 'http://localhost:9000/banks'
+			'href': '/banks'
 		},{
 			'title': 'Doctors',
-			'href': 'http://localhost:9000/doctors'
+			'href': '/doctors'
 		},{
 			'title': 'Feed Suppliers',
-			'href': 'http://localhost:9000/suppliers'
+			'href': '/suppliers'
 		},{
 			// {'title': 'Medicine Shop'},
 			// {'title': 'NGOs'},
 			// {'title': 'Research Institute Organisations'},
 			'title': 'NGOs',
-			'href': 'http://localhost:9000/ngo'
+			'href': '/ngo'
 		}];
 
 		$scope.active = 'Milk Producers';
