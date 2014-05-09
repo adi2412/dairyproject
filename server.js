@@ -16,9 +16,8 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 var config = require('./lib/config/config');
 
 // Connect to database
-var db = mongoose.connect(config.mongo.uri, config.mongo.options);
-
-// Bootstrap models
+var db = mongoose.connect(config.mongo.uri, config.mongo.options, function(e){
+	// Bootstrap models
 var modelsPath = path.join(__dirname, 'lib/models');
 fs.readdirSync(modelsPath).forEach(function (file) {
   if (/(.*)\.(js$|coffee$)/.test(file)) {
@@ -47,3 +46,6 @@ app.listen(config.port, function () {
 
 // Expose app
 exports = module.exports = app;
+});
+
+
