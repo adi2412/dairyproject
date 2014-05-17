@@ -3,16 +3,13 @@
 angular.module('dairyprojectApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [{
-      'title': 'Home',
+      'title': 'सूची',
       'link': '/'
     }, {
-      'title': 'Settings',
-      'link': '/settings'
-    }, {
-      'title': 'Search',
+      'title': 'सूचना',
       'link': '/search'
     }, {
-      'title': 'Contact',
+      'title': 'संपर्क',
       'link': '/contact'
     }];
     

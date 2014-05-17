@@ -12,6 +12,15 @@ body {
   padding-right: 15px;
 }
 
+.carousel-inner {
+  height: 221px;
+}
+
+.hindi {
+  font-family: 'Kruti Dev 010';
+  font-size: 17px;
+}
+
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
